@@ -10,3 +10,9 @@ endif
 if filereadable(expand("~/.gvimrc.after"))
   source ~/.gvimrc.after
 endif
+
+" Example Vim graphical configuration.
+" Copy to ~/.gvimrc or ~/_gvimrc.
+
+set guifont=Menlo:h15            " Font family and font size.
+set antialias                     " MacVim: smooth fonts.
